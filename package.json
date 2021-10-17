@@ -1,0 +1,31 @@
+{
+  "name": "big-event-server",
+  "version": "1.0.0",
+  "description": "练习 BigEvent 项目的服务器端开发",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ES6",
+    "Express"
+  ],
+  "author": "RedsNina",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1"
+  }
+}
